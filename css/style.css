@@ -1,0 +1,22 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; }
+  nav img {
+    width: 1vw;
+    height: auto; }

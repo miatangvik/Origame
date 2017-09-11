@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    display: flex;
+    
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    img {
+        width: 1vw;
+        height: auto;
+    }
+}
