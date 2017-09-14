@@ -3,22 +3,110 @@
 }
 
 body {
-    background-color: black;
+    overflow: hidden;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: white;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 nav {
     display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#gradient {
+    z-index: -2;
+    position: absolute;
+    background: #090525; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#090525, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#090525, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#090525, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#090525, black); /* Standard syntax */
+    width: 100vw;
+    height: 100vh;
+}
+
+#background {
+    z-index: -1;
+    position: absolute;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    opacity: 0.15;
+    top: -21vh;
+    width: 100vw;
+    height: 121vh;
+}
+
+nav#main-menu {
+    height: 4.5vh;
+    justify-content: space-around;
+    background-image: url(../img/menu.png);
+    background-size: cover;
     
     a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
+        font-size: 0.9vw;
     }
+    
+    a:hover {
+        text-decoration-line: underline;
+    }
+    
     img {
         width: 1vw;
         height: auto;
+    }
+}
+
+#logo {
+    z-index: 1;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: -3vh;
+    width: 3.5vw;
+}
+
+nav#under-menu {
+    position: relative;
+    top: -4vh;
+    width: 35vw;
+    height: 5vh;
+    margin: auto;
+    background-color: black;
+    
+    a {
+        width: 20vw;
+        text-align: center;
+        font-size: 1.4vw;
+    }
+    
+    a:hover {
+        background-color: #988BB1;
+    }
+}
+
+#articles {
+    position: relative;
+    white-space: nowrap;
+    top: 5vh;
+    max-height: 60vh;
+    background-color: aqua;
+    overflow: hidden;
+    
+    img {
+        position: relative;
+        left: -15vw;
+        max-height: 60vh;
+        
+        #image1 {
+            
+        }
     }
 }
