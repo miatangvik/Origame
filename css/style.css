@@ -21,8 +21,7 @@ nav {
 
 a {
   color: white;
-  text-decoration: none;
-  text-transform: uppercase; }
+  text-decoration: none; }
 
 #gradient {
   z-index: -2;
@@ -59,7 +58,8 @@ nav#main-menu {
   background-image: url(../img/menu.png);
   background-size: cover; }
   nav#main-menu a {
-    font-size: 0.9vw; }
+    font-size: 0.9vw;
+    text-transform: uppercase; }
   nav#main-menu a:hover {
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline; }
@@ -68,40 +68,33 @@ nav#main-menu {
     height: auto; }
 
 #logo {
-  z-index: 1;
+  z-index: 2;
   display: block;
   position: relative;
   margin: auto;
-  top: -3vh;
+  top: -3.7vh;
   width: 3.5vw; }
 
 nav#under-menu {
   position: relative;
   top: -4vh;
-  width: 35vw;
+  width: 33vw;
   height: 5vh;
-  margin: auto;
-  background-color: black; }
+  margin: auto; }
   nav#under-menu a {
-    width: 20vw;
     text-align: center;
-<<<<<<< HEAD
     text-transform: uppercase;
     font-size: 1.3vw;
     width: 11vw;
     height: 5vh;
     padding: 1.3vh 0;
-    margin: 0 2px;
+    margin: 0 3px;
     background-color: black; }
   nav#under-menu a:first-child {
     background-color: rgba(152, 139, 177, 0.5); }
-=======
-    font-size: 1.4vw; }
->>>>>>> parent of f309bb7... Lots of work
   nav#under-menu a:hover {
-    background-color: #988BB1; }
+    background-color: rgba(152, 139, 177, 0.5); }
 
-<<<<<<< HEAD
 .articles {
   position: absolute;
   top: 15vh; }
@@ -140,13 +133,6 @@ nav#under-menu {
     filter: opacity(60%); }
   .articles .article:hover .overlay {
     opacity: 1; }
-  .articles .article1 h1, .articles .article1 p {
-    top: 11.5vh; }
-  .articles .article2 h1, .articles .article2 p {
-    left: 6.5vw; }
-  .articles .article3 h1, .articles .article3 p {
-    top: 12.5vh;
-    left: 7vw; }
 
 #articles-news {
   position: relative; }
@@ -180,16 +166,27 @@ nav#under-menu {
       margin: 0 0.6vw;
       margin-bottom: 2.5vh; }
   #search form {
-=======
-#articles {
-  position: relative;
-  white-space: nowrap;
-  top: 5vh;
-  max-height: 60vh;
-  background-color: aqua;
-  overflow: hidden; }
-  #articles img {
->>>>>>> parent of f309bb7... Lots of work
     position: relative;
-    left: -15vw;
-    max-height: 60vh; }
+    top: 21vh;
+    text-align: center; }
+    #search form ::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: white;
+      opacity: 0.10; }
+    #search form ::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: white;
+      opacity: 0.10; }
+    #search form ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: white;
+      opacity: 0.10; }
+    #search form input {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      font-family: Futura, Trebuchet MS, Arial, sans-serif;
+      font-size: 4vw;
+      text-align: center;
+      text-transform: uppercase; }
