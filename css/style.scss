@@ -79,19 +79,155 @@ nav#under-menu {
     width: 35vw;
     height: 5vh;
     margin: auto;
+<<<<<<< HEAD
+	
+=======
     background-color: black;
     
+>>>>>>> parent of f309bb7... Lots of work
     a {
         width: 20vw;
         text-align: center;
+<<<<<<< HEAD
+        text-transform: uppercase;
+        font-size: 1.3vw;
+        width: 11vw;
+        height: 5vh;
+        padding: 1.3vh 0;
+		margin: 0 2px;
+        background-color: black;
+=======
         font-size: 1.4vw;
+>>>>>>> parent of f309bb7... Lots of work
     }
-    
+	
+	a:first-child {
+		background-color: rgba(152, 139, 177, 0.5);
+	}
+	
     a:hover {
         background-color: #988BB1;
     }
 }
 
+<<<<<<< HEAD
+.articles {
+    position: absolute;
+    top: 15vh;
+    
+    
+    .article {
+        display: inline-block;
+        overflow: hidden;
+		cursor: pointer;
+        
+        img {
+            max-width: 33.1vw;
+            transition: all .8s;
+        }
+        
+        .overlay {
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            //max-width: 33.1vw;
+            //max-height: 5vh;
+            
+            h1, p {
+                position: relative;
+                top: 10vh;
+                left: 6vw;
+                max-width: 20vw;
+                text-align: center;
+                text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                             0px 8px 13px rgba(0,0,0,0.1),
+                             0px 18px 23px rgba(0,0,0,0.1);
+            }
+            
+            h1 {
+                font-size: 2vw;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            
+            p {
+                font-size: 1.4vw;
+                line-height: 3.4vh;
+            }
+        }
+    }
+    
+    .article:hover img {
+        transform: scale(1.3);
+        filter: opacity(60%);
+    }
+    
+    .article:hover .overlay {
+        opacity: 1;
+    }
+    
+    .article1 {
+        h1, p {
+            top: 11.5vh;
+        }
+    }
+    
+    .article2 {
+        h1, p {
+            left: 6.5vw;
+        }
+    }
+    
+    .article3 {
+        h1, p {
+            top: 12.5vh;
+            left: 7vw;
+        }
+    }
+}
+
+#articles-news {
+	position: relative;
+}
+
+#articles-top-games, #articles-upcoming {
+	display: none;
+	top: 31.8vh;
+}
+
+#search {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: $main-menu-height;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(9, 5, 37, 0.9);
+    
+    #search-background {
+        
+    }
+    
+    #tags {
+        position: relative;
+        width: 50vw;
+        margin: auto;
+        top: 10vh;
+        text-align: center;
+        
+        a {
+            display: inline-block;
+            background-color: rgba(152, 139, 177, 0.5);
+            font-size: 1.8vw;
+            text-align: center;
+            text-transform: lowercase;
+            padding: 1vh 1vw;
+            margin: 0 0.6vw;
+            margin-bottom: 2.5vh;
+        }
+    }
+=======
 #articles {
     position: relative;
     white-space: nowrap;
@@ -99,6 +235,7 @@ nav#under-menu {
     max-height: 60vh;
     background-color: aqua;
     overflow: hidden;
+>>>>>>> parent of f309bb7... Lots of work
     
     img {
         position: relative;

@@ -85,10 +85,102 @@ nav#under-menu {
   nav#under-menu a {
     width: 20vw;
     text-align: center;
+<<<<<<< HEAD
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    width: 11vw;
+    height: 5vh;
+    padding: 1.3vh 0;
+    margin: 0 2px;
+    background-color: black; }
+  nav#under-menu a:first-child {
+    background-color: rgba(152, 139, 177, 0.5); }
+=======
     font-size: 1.4vw; }
+>>>>>>> parent of f309bb7... Lots of work
   nav#under-menu a:hover {
     background-color: #988BB1; }
 
+<<<<<<< HEAD
+.articles {
+  position: absolute;
+  top: 15vh; }
+  .articles .article {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer; }
+    .articles .article img {
+      max-width: 33.1vw;
+      -webkit-transition: all .8s;
+      -o-transition: all .8s;
+      transition: all .8s; }
+    .articles .article .overlay {
+      position: absolute;
+      opacity: 0;
+      top: 0; }
+      .articles .article .overlay h1, .articles .article .overlay p {
+        position: relative;
+        top: 10vh;
+        left: 6vw;
+        max-width: 20vw;
+        text-align: center;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+      .articles .article .overlay h1 {
+        font-size: 2vw;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .articles .article .overlay p {
+        font-size: 1.4vw;
+        line-height: 3.4vh; }
+  .articles .article:hover img {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-filter: opacity(60%);
+    filter: opacity(60%); }
+  .articles .article:hover .overlay {
+    opacity: 1; }
+  .articles .article1 h1, .articles .article1 p {
+    top: 11.5vh; }
+  .articles .article2 h1, .articles .article2 p {
+    left: 6.5vw; }
+  .articles .article3 h1, .articles .article3 p {
+    top: 12.5vh;
+    left: 7vw; }
+
+#articles-news {
+  position: relative; }
+
+#articles-top-games, #articles-upcoming {
+  display: none;
+  top: 31.8vh; }
+
+#search {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  top: 4.5vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(9, 5, 37, 0.9); }
+  #search #tags {
+    position: relative;
+    width: 50vw;
+    margin: auto;
+    top: 10vh;
+    text-align: center; }
+    #search #tags a {
+      display: inline-block;
+      background-color: rgba(152, 139, 177, 0.5);
+      font-size: 1.8vw;
+      text-align: center;
+      text-transform: lowercase;
+      padding: 1vh 1vw;
+      margin: 0 0.6vw;
+      margin-bottom: 2.5vh; }
+  #search form {
+=======
 #articles {
   position: relative;
   white-space: nowrap;
@@ -97,6 +189,7 @@ nav#under-menu {
   background-color: aqua;
   overflow: hidden; }
   #articles img {
+>>>>>>> parent of f309bb7... Lots of work
     position: relative;
     left: -15vw;
     max-height: 60vh; }
