@@ -23,6 +23,9 @@ a {
   color: white;
   text-decoration: none; }
 
+.hidden {
+  display: none; }
+
 #gradient {
   z-index: -2;
   position: absolute;
@@ -88,11 +91,9 @@ nav#under-menu {
     width: 11vw;
     height: 5vh;
     padding: 1.3vh 0;
-    margin: 0 3px;
+    margin: 0 4px;
     background-color: black; }
   nav#under-menu a:first-child {
-    background-color: rgba(152, 139, 177, 0.5); }
-  nav#under-menu a:hover {
     background-color: rgba(152, 139, 177, 0.5); }
 
 .articles {
@@ -138,12 +139,10 @@ nav#under-menu {
   position: relative; }
 
 #articles-top-games, #articles-upcoming {
-  display: none;
   top: 31.8vh; }
 
 #search {
   z-index: 1;
-  display: none;
   position: absolute;
   top: 4.5vh;
   left: 0;

@@ -5,10 +5,10 @@ var isVisible = false;
 
 searchIcon.addEventListener("click", function() {
     if (isVisible) {
-        searchScreen.style.display = "none";
+        searchScreen.classList.add("hidden");
         isVisible = false;
     } else {
-        searchScreen.style.display = "block";
+        searchScreen.classList.remove("hidden");
         searchInput.focus();
         isVisible = true;
     } 
